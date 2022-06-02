@@ -1,4 +1,4 @@
-import {React,useState} from 'react';
+import { React, useState } from 'react';
 import { Modal, Button, Form, Input } from 'antd';
 
 const Member = () => {

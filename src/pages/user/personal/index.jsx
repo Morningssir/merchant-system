@@ -18,12 +18,9 @@ const Personal = () => {
       <Descriptions.Item label="经营商品" span={2}>
         2019-04-24 18:00:00
       </Descriptions.Item>
-      <Descriptions.Item label="营业执照编号" span={3}>
-        
-      </Descriptions.Item>
+      <Descriptions.Item label="营业执照编号" span={3}></Descriptions.Item>
       <Descriptions.Item label="营业执照">$80.00</Descriptions.Item>
       <Descriptions.Item label="经营资格证书">$20.00</Descriptions.Item>
-      
     </Descriptions>
   );
 };

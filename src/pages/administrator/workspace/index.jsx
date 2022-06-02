@@ -38,7 +38,6 @@ const Workspace = () => {
               <TabPane tab="发布通知" key="2">
                 Content of Tab Pane 2
               </TabPane>
-              
             </Tabs>
           </Card>
         </Col>

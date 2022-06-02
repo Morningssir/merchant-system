@@ -22,9 +22,9 @@ const Workspace = () => {
             <div className={styles.name}>
               <div className={styles.morning}>早安,Aelia！</div>
               {/* <div className={styles.thename}>Aelia！</div> */}
-              <p >祝你开心每一天！</p>
+              <p>祝你开心每一天！</p>
             </div>
-              <p className={styles.adress}>蜜雪冰城（理工大学北区2公寓店）</p>
+            <p className={styles.adress}>蜜雪冰城（理工大学北区2公寓店）</p>
           </Card>
         </Col>
 

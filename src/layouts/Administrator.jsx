@@ -23,7 +23,6 @@ const Administrator = (props) => {
     console.log(key);
   }
   return (
-
     <Fragment>
       <Layout className={styles.mainbar}>
         <Sider className={styles.sider}>

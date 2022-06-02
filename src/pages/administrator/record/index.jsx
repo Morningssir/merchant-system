@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const Record = () => {
-    return(<div>消息</div>)
-}
+  return <div>消息</div>;
+};
 
 export default Record;

@@ -10,29 +10,29 @@ const { Header } = Layout;
 const { Meta } = Card;
 
 const Category = (props) => {
-    const { data, dispatch } = props;
+  const { data, dispatch } = props;
 
-    useEffect(() => {
-      axios.get('/api/categories').then((res) => {
-        setData(res.data.data);
-        console.log(res.data.data);
+  useEffect(() => {
+    axios.get('/api/categories').then((res) => {
+      setData(res.data.data);
+      console.log(res.data.data);
       //   dispatch({ type: 'category/saveCategoryList', payload: res.data.data });
-      });
-    }, []);
+    });
+  }, []);
 
-    function confirm(e) {
-      console.log(e);
-      message.success('确认删除');
-    }
+  function confirm(e) {
+    console.log(e);
+    message.success('确认删除');
+  }
 
-    function cancel(e) {
-      console.log(e);
-      message.error('取消删除');
-    }
+  function cancel(e) {
+    console.log(e);
+    message.error('取消删除');
+  }
 
-    const info = () => {
-      message.info('可在商铺/店员管理页面筛选获得相应列表');
-    };
+  const info = () => {
+    message.info('可在商铺/店员管理页面筛选获得相应列表');
+  };
 
   return (
     <Fragment>
