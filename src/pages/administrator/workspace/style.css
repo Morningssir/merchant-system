@@ -1,0 +1,10 @@
+.avatar{
+    background-color:rgba(255, 228, 196, 0.658);
+}
+.card{
+margin: 24px;
+}
+.message{
+    margin: 24px;
+    min-height: 600px;
+}
